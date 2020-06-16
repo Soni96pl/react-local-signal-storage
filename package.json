@@ -1,0 +1,37 @@
+{
+  "name": "react-local-signal-storage",
+  "version": "1.0.0",
+  "description": "React Hooks adapter for Local Signal Storage",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "babel src --out-dir lib",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Soni96pl/react-local-signal-storage.git"
+  },
+  "keywords": [
+    "react",
+    "hooks",
+    "react",
+    "hooks",
+    "local",
+    "storage",
+    "storage"
+  ],
+  "author": "Sonia Chronowska",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Soni96pl/react-local-signal-storage/issues"
+  },
+  "homepage": "https://github.com/Soni96pl/react-local-signal-storage#readme",
+  "dependencies": {
+    "local-signal-storage": "^1.1.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.10.1",
+    "@babel/core": "^7.10.2",
+    "@babel/preset-env": "^7.10.2"
+  }
+}

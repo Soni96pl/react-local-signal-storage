@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { useEvent } from 'react-use';
 import localSignalStorage from 'local-signal-storage';
 
 
@@ -24,12 +25,14 @@ export const useLocalSignalStorage = (key, initialValue) => {
 
   localSignalStorage.registerEventProxy();
 
-  window.addEventListener('localSignalStorage', () => {
+  const onLocalSignalStorageUpdate = () => {
     const storageValue = localSignalStorage.getItem(key);
     if (storageValue !== value) {
       setStoredValue(storageValue);
     };
-  });
+  };
+
+  useEvent('localSignalStorage', onLocalSignalStorageUpdate);
 
   const remove = () => localSignalStorage.remove(key);
 

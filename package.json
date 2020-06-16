@@ -27,7 +27,8 @@
   },
   "homepage": "https://github.com/Soni96pl/react-local-signal-storage#readme",
   "dependencies": {
-    "local-signal-storage": "^1.1.1"
+    "local-signal-storage": "^1.1.1",
+    "react-use": "^15.2.5"
   },
   "devDependencies": {
     "@babel/cli": "^7.10.1",

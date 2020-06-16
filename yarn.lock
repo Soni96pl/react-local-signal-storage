@@ -1573,10 +1573,10 @@ levenary@^1.1.1:
   dependencies:
     leven "^3.1.0"
 
-local-signal-storage@^1.2.0:
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/local-signal-storage/-/local-signal-storage-1.2.0.tgz#f72f3d28ebd5bcb2cd38f5223cbe7dc68a98021f"
-  integrity sha512-VZ3083QrcWC5rBiz93ymrrHVWECL6b+NQi83B6HZuBvkDVjURekKo3XCPZnJ73wC63/nndVLHwFmsaZVvUnmKA==
+local-signal-storage@^1.2.1:
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/local-signal-storage/-/local-signal-storage-1.2.1.tgz#ea7223e6aecbde3e5318be827dfb2469c606c7ee"
+  integrity sha512-GQ4UCXXWHHsxheLWsHiK+iNuABJmT+D3FPpoEgwGAWLYIniW1OAjaxMJtNvL34lvJ4dF6D9d9myvWNjV8BgMjA==
 
 locate-path@^2.0.0:
   version "2.0.0"

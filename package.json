@@ -1,6 +1,6 @@
 {
   "name": "react-local-signal-storage",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "React Hooks adapter for Local Signal Storage",
   "main": "lib/index.js",
   "scripts": {
